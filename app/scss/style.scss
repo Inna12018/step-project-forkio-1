@@ -1,0 +1,17 @@
+@import "./reset";
+@import "./variables";
+@import "./mixins";
+@import "./fonts";
+
+@import "./base";
+
+@import "./sections/sections-all";
+@import "./media/media-all";
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+
+
+}
